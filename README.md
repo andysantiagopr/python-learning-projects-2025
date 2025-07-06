@@ -1,20 +1,21 @@
-# python-learning-projects-2025
-Beginner and early-intermediate Python projects from my initial coding journey in 2025. Includes scripting, automation, and foundational exercises.
+# Service Desk Bot 🛠️
 
-Projects were built to:
-- Practice core Python concepts (variables, loops, functions, etc.)
-- Develop simple scripts and automation tools
-- Apply problem-solving skills in a real-world context
+A simple Python simulation of a service desk ticketing system. Users can create tickets with a category and priority, and the system automatically routes them to the appropriate IT support team.
 
-## 📁 Included Projects
+## 🔧 Features
 
-- `service-desk-bot`: A basic service desk automation script simulating help desk responses.
-- `100-days-of-code-projects`: Exercises and mini-projects from the "100 Days of Code: The Complete Python Bootcamp" on Udemy.
+- CLI-based ticket input
+- Routing logic based on category and priority
+- Batch processing from a CSV file
+- Modular code structure with routing in a separate module
 
-## 📌 Note
+## 📁 File Structure
 
-While I’m currently focused on JavaScript and full-stack development, these Python projects reflect my foundational learning and interest in scripting and automation.
+- `main.py`: handles user input and routing flow
+- `ticket_router.py`: contains routing logic
+- `tickets.csv`: optional batch input
 
----
+## 🚀 How to Run
 
-Feel free to explore — this repo is here for transparency, growth tracking, and to showcase the early steps of my software development journey.
+```bash
+python main.py
